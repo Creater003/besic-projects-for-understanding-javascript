@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.main{
+    height: 400px;
+    width: 600px;
+    background-color: red;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.newdiv{
+    position: absolute;
+    height: 150px;
+    overflow: hidden;
+    width: 100px;
+    border-radius: 10px;
+    /* background-color: yellow; */
+}
+img{
+    object-fit: cover;
+    height: 150px;
+    width: 100px;
+    transform: translateY(100%);
+    
+    
+}

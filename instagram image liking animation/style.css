@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+ 
+}
+
+.container{
+    height: 600px;
+    width: 500px;
+    overflow: hidden;
+    object-fit: fill;
+    background-color: white;
+}
+img{
+    object-fit: fill;
+}
+i{
+    /* height: 50px; */
+    /* width: 50px; */
+    size: 50px;
+    color: red;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all ease 0.4s;
+}
+
+
+
